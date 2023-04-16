@@ -10,7 +10,7 @@ function LoadMore(){
     return (
         <div className='load_more'>
         {
-            result<page*9?""
+            result<page*10?""
             :<button onClick={()=>setPage(page+1)}>Load More</button>
         }
 
